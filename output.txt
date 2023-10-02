@@ -1,0 +1,813 @@
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 0
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 1     0        0            0         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 is empty
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 6
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 2     0       10            5         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 is empty
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 11
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        7            6         1
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 is empty
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 4     1        1            6         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 11
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        7            6         1
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 is empty
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+ 6     0        6           11         0
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 4     1        1            6         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 11
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         0
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 4     1        1            6         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 11
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 4     1        1            6         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 15
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 is empty
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 4     1        1            6         1
+ 6     1        6           11         1
+ 8     1        9           11         1
+ 9     1        8           11         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 19
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         2
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         1
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 9     1        8           11         1
+10     1       20           11         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     2       42            5         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 25
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 2     2        8            5         6
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         1
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+10     0       20           11         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     2        9           11         3
+ 9     2        8           11         3
+Queue of processes with priority 3 is empty
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 29
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 9     2        8           11         5
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         1
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+10     0       20           11         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+11     0        6           29         0
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 31
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+11     0        6           29         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         1
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     0        7            6         1
+10     0       20           11         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+12     0        9           29         0
+ 5     0        6           11         0
+13     0       18           31         0
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 35
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+14     0       27           31         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     0        6           11         1
+ 3     0        7            6         1
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+11     1        6           29         1
+12     1        9           29         1
+ 5     1        6           11         1
+13     1       28           31         1
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 38
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+15     0       10           37         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+14     0       27           31         0
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+16     0       15           38         0
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+12     1        9           29         1
+ 5     1        6           11         1
+13     1       28           31         1
+ 6     1      -24           11         2
+ 3     1        3            6         2
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 47
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 6     1      -96           11         3
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         1
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         2
+16     1       15           38         1
+14     1       27           31         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+13     2       29           31         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 51
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+16     1       15           38         1
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 is empty
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+14     1       27           31         1
+10     1       20           11         2
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+13     2       29           31         3
+ 6     2      -96           11         4
+ 3     2        3            6         4
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 60
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+13     2      299           31         6
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         2
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 6     2      -96           11         4
+ 3     2        3            6         4
+14     2       27           31         3
+17     2       10           51         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 68
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+17     2       10           51         5
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         2
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+ 2     3        8            5         7
+ 9     3        8           11         7
+13     3      299           31         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 77
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+ 9     3        8           11        11
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+10     0       20           11         2
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+18     0       10           73         0
+19     0        1           77         0
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 is empty
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 96
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+23     1      125           83         1
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+19     0        1           77         0
+21     0        8           77         0
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+28     0      125           96         0
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+10     1       20           11         3
+24     1      125           84         1
+25     1       70           88         1
+26     1       15           90         1
+27     1      135           93         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+18     2       70           73         3
+20     2       25           77         3
+22     2       15           82         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+ 9     3       10           11        15
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 106
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+27     1     1350           93         2
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+19     0        1           77         0
+21     0        8           77         0
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+25     0       70           88         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+28     1      125           96         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+18     2       70           73         3
+20     2       25           77         3
+22     2       15           82         3
+23     2      135           83         3
+10     2       20           11         5
+24     2      105           84         3
+26     2       15           90         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+ 9     3       10           11        15
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 107
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+29     0      125          106         0
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+19     0        1           77         0
+21     0        8           77         0
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+25     0       70           88         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 is empty
+Queue of processes with priority 1 :
+PID  Priority Value  Start Time  Total CPU time
+28     1      125           96         1
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+18     2       70           73         3
+20     2       25           77         3
+22     2       15           82         3
+23     2      135           83         3
+10     2       20           11         5
+24     2      105           84         3
+26     2       15           90         3
+27     2     1350           93         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+ 9     3       10           11        15
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 118
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+31     1      250          115         1
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+19     0        1           77         0
+21     0        8           77         0
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+25     0       70           88         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+32     0      125          118         0
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+20     2       25           77         3
+22     2       15           82         3
+23     2      135           83         3
+10     2       20           11         5
+24     2      105           84         3
+26     2       15           90         3
+27     2     1350           93         3
+28     2      135           96         3
+29     2      112          106         3
+30     2      125          110         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+ 9     3       10           11        15
+*****************************************************
+
+*****************************************************
+The current system state is as follows:
+*****************************************************
+
+CURRENT TIME: 125
+
+RUNNING PROCESS:
+PID  Priority Value  Start Time  Total CPU time
+33     1       62          121         2
+
+BLOCKED PROCESS: 
+Queue of processes Blocked for resource 0 :
+PID  Priority Value  Start Time  Total CPU time
+19     0        1           77         0
+21     0        8           77         0
+ 8     1        9           11         4
+Queue of processes Blocked for resource 1 :
+PID  Priority Value  Start Time  Total CPU time
+ 3     1        3            6         4
+Queue of processes Blocked for resource 2 :
+PID  Priority Value  Start Time  Total CPU time
+25     0       70           88         1
+
+PROCESSES READY TO EXECUTE: 
+Queue of processes with priority 0 :
+PID  Priority Value  Start Time  Total CPU time
+ 5     0        6           11         2
+Queue of processes with priority 1 is empty
+Queue of processes with priority 2 :
+PID  Priority Value  Start Time  Total CPU time
+20     2       25           77         3
+22     2       15           82         3
+23     2      135           83         3
+10     2       20           11         5
+24     2      105           84         3
+26     2       15           90         3
+27     2     1350           93         3
+28     2      135           96         3
+29     2      112          106         3
+30     2      125          110         3
+31     2      250          115         3
+32     2      125          118         3
+Queue of processes with priority 3 :
+PID  Priority Value  Start Time  Total CPU time
+13     3      299           31         7
+17     3       10           51         7
+ 9     3       10           11        15
+*****************************************************
+
+The average Turnaround Time: 69.8788
