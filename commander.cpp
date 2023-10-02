@@ -24,9 +24,8 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    if (processManagerPid == 0)
+    if (processManagerPid == 0)  //Child Process
     {
-        //Child Process
         close(pipefd[1]);
 
         // Redirect the read end of the pipe to stdin
@@ -37,8 +36,7 @@ int main() {
         cerr << "Error executing process manager" << endl;
         exit(EXIT_FAILURE);
     }
-    else {
-        // Parent Process
+    else {  // Parent Process
         // Read commands from stdin (cin) and send them to the process manager through the pipe
         string line;
         while (getline(cin, line)) {
