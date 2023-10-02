@@ -9,8 +9,7 @@ using namespace std;
 int main() {
     // Create a pipe for communication with the process manager
     int pipefd[2];
-    if (pipe(pipefd) == -1)
-    {
+    if (pipe(pipefd) == -1) {
         cerr << "Error creating pipe" << endl;
         exit(EXIT_FAILURE);
     }
@@ -18,14 +17,12 @@ int main() {
     // Create a child process (process manager)
     pid_t processManagerPid = fork();
 
-    if (processManagerPid < 0)
-    {
+    if (processManagerPid < 0) {
         cerr << "Error forking process manager" << endl;
         exit(EXIT_FAILURE);
     }
 
-    if (processManagerPid == 0)  //Child Process
-    {
+    if (processManagerPid == 0) {  //Child Process
         close(pipefd[1]);
 
         // Redirect the read end of the pipe to stdin
