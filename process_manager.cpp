@@ -1,6 +1,5 @@
 #include <iostream>
-#include <iomanip>
-#include <vector>
+#include <iomanip>   // For output requirements
 #include <unistd.h>  // For fork, pipe, exec, etc.
 #include <cstdlib>   // For exit
 #include <sys/wait.h> // For wait
