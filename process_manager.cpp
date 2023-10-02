@@ -80,13 +80,16 @@ void incrementTime() {
     Time++;
     pcbArray[RunningState].quantum-=1;
     pcbArray[RunningState].cpu_time+=1;
+    //When time increments, the active process' quantum decreases and cpu time increases
     if(pcbArray[RunningState].cpu_time >= pcbArray[RunningState].run_time)
     {
+	//If it has been running for the total time it needs to complete, start next process
 	RunningState=ReadyState.Dequeue();
 	return;
     }
     if(pcbArray[RunningState].quantum<=0)
     {
+	//If a process has used all its quantum, decrease priority, requeue it, and start next process
 	if(pcbArray[RunningState].priority<3)
 	    pcbArray[RunningState].priority+=1;
         pcbArray[RunningState].quantum=pow(2,pcbArray[RunningState].priority);
